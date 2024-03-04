@@ -98,7 +98,6 @@ definition_list_dayyear = dayyear_var[1]
 #set X and Y:
 
 X = df2.drop(['MCI'],axis=1).values #sets x and converts to an array
-print(X.head())
 
 y = df2['MCI'].values #sets y and converts to an array
 
